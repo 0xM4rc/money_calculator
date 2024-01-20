@@ -2,13 +2,9 @@ package software.ulpgc.moneycalculator;
 
 import software.ulpgc.moneycalculator.api.ApiCurrencyLoader;
 import software.ulpgc.moneycalculator.api.ApiExchangeRateLoader;
-import software.ulpgc.moneycalculator.cli.CliCurrencyDialog;
-import software.ulpgc.moneycalculator.cli.CliMoneyDialog;
+
 import software.ulpgc.moneycalculator.control.ExchangeCommand;
-/*import software.ulpgc.moneycalculator.mock.MockCurrencyLoader;
-import software.ulpgc.moneycalculator.mock.MockExchangeRateLoader;
-import software.ulpgc.moneycalculator.mock.MockMoneyDisplay;
-*/
+
 import software.ulpgc.moneycalculator.model.Currency;
 import software.ulpgc.moneycalculator.swing.MainFrame;
 
