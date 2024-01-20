@@ -30,5 +30,6 @@ public class ExchangeCommand implements Command {
         ExchangeRate exchangeRate = exchangeRateLoader.load(money.currency(), target);
         Money result = new Money((double) (money.amount() * exchangeRate.rate()), target);
         moneyDisplay.show(result);
+
     }
 }
